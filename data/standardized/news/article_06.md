@@ -1,0 +1,48 @@
+# [Trả hàng/Hoàn tiền] Cẩm nang Trả hàng hoàn tiền | Shopee Trung tâm trợ giúp
+
+**Source:** https://help.shopee.vn/portal/4/article/79258
+**Crawled:** 2026-08-04T15:22:45.907001
+
+---
+
+# Xin chào, Shopee có thể giúp gì cho bạn?
+## [Trả hàng/Hoàn tiền] Cẩm nang Trả hàng hoàn tiền
+**Gửi yêu cầu**
+  * [_[Đơn hàng] Tôi có thể yêu cầu đổi sản phẩm khác không khi đã nhận hàng?_](https://help.shopee.vn/s/article/Ho-tro-doi-hang-tren-Shopee?previousPage=other%20articles)
+  * [[Thành viên mới] Thời gian tối đa để gửi yêu cầu Trả hàng/Hoàn tiền trên ứng dụng Shopee?](https://help.shopee.vn/portal/article/79137-\[Th%c3%a0nh-vi%c3%aan-m%e1%bb%9bi\]-C%c3%a1ch-%c4%91%e1%bb%83-g%e1%bb%adi-y%c3%aau-c%e1%ba%a7u-Tr%e1%ba%a3-h%c3%a0ng%2FHo%c3%a0n-ti%e1%bb%81n-tr%c3%aan-%e1%bb%a9ng-d%e1%bb%a5ng-Shopee%3F?previousPage=other+articles&previousPage=other%20articles)
+  * [_[Trả hàng/Hoàn tiền] Tôi đã nhấn “Đã nhận được hàng”, tôi có yêu cầu trả hàng/hoàn tiền được không?_](https://help.shopee.vn/s/article/toi-dan-nhan-da-nhan-duoc-hang-toi-co-yeu-cau-tra-hang-hoan-tien-duoc-khong?previousPage=other%20articles)
+  * [_[Trả hàng/Hoàn tiền] Tôi có thể yêu cầu Trả hàng/Hoàn tiền cho Quà tặng 0Đ đã nhận từ Gói Chào Mừng không?_](https://help.shopee.vn/s/article/toi-co-the-yeu-cau-tra-hang-hoan-tien-cho-qua-tang-0d-da-nhan-tu-goi-chao-mung-khong?previousPage=other%20articles)
+  * [_[Đơn hàng] Tôi phải làm gì nếu chưa nhận được hàng/đơn hàng cập nhật sai trạng thái?_](https://help.shopee.vn/s/article/Khi-c%C3%B3-s%E1%BB%B1-c%E1%BB%91-v%E1%BA%ADn-chuy%E1%BB%83n-x%E1%BA%A3y-ra-t%C3%B4i-n%C3%AAn-li%C3%AAn-h%E1%BB%87-b%E1%BB%99-ph%E1%BA%ADn-n%C3%A0o-1542942316738?previousPage=other%20articles)
+  * [_[Mua Kèm Deal Sốc] Làm thế nào để yêu cầu Trả hàng/Hoàn tiền cho sản phẩm?_](https://help.shopee.vn/s/article/lam-the-nao-de-yeu-cau-tra-hang-hoan-tien-cho-san-pham?previousPage=other%20articles)
+  * [_[Trả hàng/Hoàn tiền] Người mua cần cung cấp những bằng chứng gì?_](https://help.shopee.vn/vn/s/article/Khi-y%C3%AAu-c%E1%BA%A7u-Tr%E1%BA%A3-h%C3%A0ng-Ho%C3%A0n-ti%E1%BB%81n-ng%C6%B0%E1%BB%9Di-mua-c%E1%BA%A7n-cung-c%E1%BA%A5p-nh%E1%BB%AFng-b%E1%BA%B1ng-ch%E1%BB%A9ng-g%C3%AC?previousPage=other%20articles)
+  * [_[Thành viên mới] Điều kiện Trả hàng/Hoàn tiền của Shopee_](https://help.shopee.vn/s/article/Ch%C3%ADnh-s%C3%A1ch-tr%E1%BA%A3-h%C3%A0ng-c%E1%BB%A7a-Shopee-l%C3%A0-g%C3%AC-1542942384513?previousPage=other%20articles)
+
+
+**Xử lý yêu cầu**
+  * [_[Trả hàng/Hoàn tiền] Người bán sẽ làm gì sau khi nhận được yêu cầu của tôi?_](https://help.shopee.vn/s/article/nguoi-ban-se-lam-gi-sau-khi-nhan-duoc-yeu-cau-cua-toi?previousPage=other%20articles)
+  * [_[Trả hàng/Hoàn tiền] Yêu cầu đang được Shopee xem xét nghĩa là gì?_](https://help.shopee.vn/vn/s/article/yeu-cau-tra-hang-hoan-tien-dang-duoc-xem-xet-nghia-la-gi?previousPage=other%20articles)
+  * [_[Trả hàng/Hoàn tiền] Shopee sẽ xử lý yêu cầu Trả hàng/Hoàn tiền của tôi như thế nào?_](https://help.shopee.vn/s/article/shopee-se-xu-ly-yeu-cau-tra-hang-hoan-tien-cua-toi-nhu-the-nao?previousPage=other%20articles)
+
+
+**Trả hàng**
+  * [_[Trả hàng] Làm thế nào để trả hàng về cho Người bán/Kho Shopee?_](https://help.shopee.vn/s/article/H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-tr%E1%BA%A3-h%C3%A0ng-d%C3%A0nh-cho-Ng%C6%B0%E1%BB%9Di-mua?previousPage=other%20articles)
+  * [_[Trả hàng] Cách đóng gói đơn hàng hoàn trả_](https://help.shopee.vn/s/article/cach-dong-goi-don-hang-hoan-tra?previousPage=other%20articles)
+  * [_[Trả hàng] Cách ghi thông tin lên gói hàng cần gửi trả_](https://help.shopee.vn/vn/s/article/Huong-dan-ghi-thong-tin-len-goi-hang-can-gui-tra-cho-Nguoi-ban-Shopee?previousPage=other%20articles)
+  * [_[Trả hàng] Làm thế nào để theo dõi đơn hàng hoàn trả?_](https://help.shopee.vn/s/article/tra-hang-lam-sao-de-kiem-tra-trang-thai-don-hang-hoan-ve-cho-nguoi-ban?previousPage=other%20articles)
+  * [_[Trả hàng] Shopee có hỗ trợ phí trả hàng không?_](https://help.shopee.vn/vn/s/article/Chinh-sach-ho-tro-phi-tra-hang-Shopee?previousPage=other%20articles)
+
+
+**Hoàn tiền**
+  * [_[Hoàn tiền] Mất bao lâu để tôi nhận lại tiền sau khi gửi trả hàng thành công?_](https://help.shopee.vn/s/article/Sau-khi-g%E1%BB%ADi-y%C3%AAu-c%E1%BA%A7u-tr%E1%BA%A3-h%C3%A0ng-trong-bao-l%C3%A2u-t%C3%B4i-s%E1%BA%BD-nh%E1%BA%ADn-%C4%91%C6%B0%E1%BB%A3c-ti%E1%BB%81n-ho%C3%A0n-tr%E1%BA%A3-1542942531227?previousPage=other%20articles)
+  * [_[ShopeePay] Tiền hoàn đã được gửi lại cho tôi hay chưa?_](https://help.shopee.vn/s/article/tien-hoan-da-duoc-gui-lai-cho-toi-hay-chua?previousPage=other%20articles)
+  * [_[Trả góp] Tiền hoàn cho yêu cầu Trả hàng/hoàn tiền sẽ như thế nào khi tôi thanh toán bằng bằng Thẻ Tín dụng?_](https://help.shopee.vn/s/article/tien-hoan-cho-yeu-cau-tra-hang-hoan-tien-se-duoc-thanh-toan-nhu-the-nao-khi-thanh-toan-bang-the-tin-dung?previousPage=other%20articles)
+  * [_[Phí vận chuyển] Tôi có được hoàn lại phí vận chuyển ban đầu khi yêu cầu Trả hàng/Hoàn tiền không?_](https://help.shopee.vn/s/article/toi-co-duoc-hoan-lai-phi-van-chuyen-ban-dau-khi-yeu-cau-tra-hang-hoan-tien-khong?previousPage=other%20articles)
+  * [_[Ưu đãi] Tôi có được hoàn lại Mã giảm giá khi yêu cầu Trả hàng/Hoàn tiền không?_](https://help.shopee.vn/s/article/toi-co-duoc-hoan-lai-ma-giam-gia-khi-yeu-cau-tra-hang-hoan-tien-khong?previousPage=other%20articles)
+  * [_[Ưu đãi] Tôi có được hoàn lại Mã giảm giá nếu đơn hàng bị hủy không?_](https://help.shopee.vn/s/article/Neu-huy-don-hang-toi-co-duoc-hoan-lai-Voucher?previousPage=other%20articles)
+  * [_[Shopee Xu] Tôi có được hoàn lại Shopee Xu nếu đơn hàng bị hủy/được đồng ý hoàn tiền không?_](https://help.shopee.vn/s/article/toi-co-duoc-hoan-xu-sau-khi-yeu-cau-tra-hang-hoan-tien?previousPage=other%20articles)
+
+
+Tham khảo thêm [_các câu hỏi thường gặp về Trả hàng/Hoàn tiền Shopee Mall_](https://help.shopee.vn/s/article/tong-hop-cac-cau-hoi-lien-quan-danh-cho-nguoi-mua?previousPage=other%20articles) trên Shopee dành cho Người mua.
+Bạn có hài lòng với bài viết này?
+Hài lòng
+Không hài lòng

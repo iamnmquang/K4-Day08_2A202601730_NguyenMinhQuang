@@ -1,17 +1,182 @@
 [
   {
-    "question": "Người mua có thể yêu cầu trả hàng/hoàn tiền trong thời hạn bao lâu sau khi nhận hàng?",
-    "expected_answer": "Trong vòng 15 ngày kể từ khi giao hàng thành công (24 giờ đối với thực phẩm tươi sống/đông lạnh).",
-    "expected_context": "Trang Returns and Refunds Policy, mục Return/Refund Eligibility"
+    "question": "Người mua có thể gửi yêu cầu trả hàng/hoàn tiền trong vòng bao nhiêu ngày kể từ khi đơn hàng được giao thành công?",
+    "expected_answer": "Trong vòng 15 ngày kể từ khi đơn hàng được cập nhật giao hàng thành công. Riêng đối với thực phẩm tươi sống và đông lạnh, thời hạn là 24 giờ.",
+    "expected_context": "3.2.Người Mua có thể gửi yêu cầu trả hàng/hoàn tiền trong vòng 15 (mười lăm) ngày kể từ lúc đơn hàng được cập nhật giao hàng thành công. Riêng đối với các Sản Phẩm là thực phẩm tươi sống và đông lạnh, Người Mua cần gửi yêu cầu trả hàng/hoàn tiền trong vòng 24 giờ kể từ lúc đơn hàng được cập nhật giao hàng thành công.",
+    "source": "chinh-sach-tra-hang-hoan-tien-vi.md",
+    "chunk_index": 8,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit, score 0.707"
   },
   {
-    "question": "Shopee hỗ trợ những phương thức thanh toán nào?",
-    "expected_answer": "ShopeePay Wallet, thẻ tín dụng/ghi nợ, trả góp qua thẻ, QR Code, chuyển khoản qua app ngân hàng, thẻ NAPAS, Apple Pay, Google Pay, và COD.",
-    "expected_context": "Trang Payment Methods Overview"
+    "question": "Buyer may raise a refund/return request for a Received Item up to how many days after the delivery status is updated?",
+    "expected_answer": "Up to fifteen (15) days after the day the status on the Shopee app is updated as 'Delivered' (for items delivered by a Shopee Supported Logistics Partner), or after the estimated delivery date for other Received Items.",
+    "expected_context": "2.1 Received Items. Buyer may raise a refund and/or return request up to fifteen (15) days after (i) the day that the status on the Shopee app is updated as \"Delivered\" (in respect of a Received Item delivered by a third-party logistics partner identified on the Shopee platform as a \"Shopee Supported Logistics partner\")...",
+    "source": "refunds-and-return-policy-en.md",
+    "chunk_index": 9,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit, score 0.705"
   },
   {
-    "question": "Người bán không được đăng bán những sản phẩm nào?",
-    "expected_answer": "Hàng giả/nhái, sản phẩm bất hợp pháp, vi phạm sở hữu trí tuệ, và các mặt hàng nằm trong danh sách cấm của sàn.",
-    "expected_context": "Trang Product Listing Regulations, mục Prohibited Content"
+    "question": "Người Mua được phép yêu cầu trả hàng/hoàn tiền trong những trường hợp nào?",
+    "expected_answer": "Không nhận được sản phẩm hoặc không nhận đủ sản phẩm/nhận hàng giả nhái; sản phẩm bị lỗi hoặc hư hại khi vận chuyển; Người Bán giao sai sản phẩm; sản phẩm khác biệt rõ rệt so với mô tả; sản phẩm hết hạn sử dụng; có thỏa thuận riêng với Người Bán; hoặc trả hàng COM theo Điều 4.",
+    "expected_context": "3. ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN. 3.1.Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: 1. Người Mua đã thanh toán bằng các phương thức thanh toán hợp lệ và trực tiếp trên Trang Shopee nhưng...",
+    "source": "chinh-sach-tra-hang-hoan-tien-vi.md",
+    "chunk_index": 6,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit, score 0.677 (chunk gives the section header plus item 1 of the list; items 2-7 are in the next chunk)"
+  },
+  {
+    "question": "Trả hàng COM (đổi ý không cần lý do) chỉ áp dụng cho những đối tượng Người Mua nào?",
+    "expected_answer": "Người Mua là thành viên chương trình khách hàng thân thiết Shopee đạt hạng Vàng và Kim Cương, hoặc Người Mua đang sử dụng Gói ShopeeVIP.",
+    "expected_context": "i. Người Mua là thành viên của Chương trình khách hàng thân thiết Shopee đạt hạng Vàng và Kim Cương... ii. Người Mua đang sử dụng Gói ShopeeVIP.",
+    "source": "chinh-sach-tra-hang-hoan-tien-vi.md",
+    "chunk_index": 12,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: current pipeline's top-3 for this query return chunk_index 23 (the COM exclusion clause 4.4) and 11/13, never the actual eligibility chunk 12. The enumeration 'a./b.' item 4.1 sits right before this chunk and the 500-char/50-overlap split separates the heading from the qualifying members list, so embedding similarity favors nearby COM-limit/exclusion text instead. Good case for diagnosing a retrieval (not generation) miss."
+  },
+  {
+    "question": "Hạn mức Trả hàng COM hàng tháng dành cho Người Mua sử dụng Gói ShopeeVIP là bao nhiêu lần?",
+    "expected_answer": "15 (mười lăm) lần trong mỗi tháng dương lịch, tính từ thời điểm đăng ký Gói ShopeeVIP thành công.",
+    "expected_context": "b. Đối với Người Mua sử dụng Gói ShopeeVIP, hạn mức Trả hàng COM là 15 (mười lăm) lần trong mỗi tháng dương lịch được tính bắt đầu từ thời điểm Gói ShopeeVIP được Người Mua đăng ký thành công...",
+    "source": "chinh-sach-tra-hang-hoan-tien-vi.md",
+    "chunk_index": 16,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit, score 0.788 (highest-confidence hit in the whole set)"
+  },
+  {
+    "question": "Who bears the Forward Shipping Fee and Return Shipping Fee when Shopee approves a refund for reasons attributable to the Seller?",
+    "expected_answer": "The Seller bears both the Return Shipping Fee (cost of returning the item to Shopee's location and then to the Seller) and the Seller's and Buyer's portions of the Forward Shipping Fee for the initial delivery.",
+    "expected_context": "(i) Seller Fault Reasons: In the event that Shopee approves (at its sole discretion) a refund and/or return request for reasons that are attributable to Seller (as set out in Sections 2(ii)(a) to 2(ii)(f) above), Seller shall bear both (A) (if applicable) the total fees payable to the delivery company(ies) for returning the relevant Item(s)... (the \"Return Shipping Fee\"), in addition to (B) the Seller's portion and the Buyer's portion of the regular Shipping Fee... (\"Forward Shipping Fee\").",
+    "source": "refunds-and-return-policy-en.md",
+    "chunk_index": 26,
+    "retrieval_check": "hard",
+    "retrieval_note": "BORDERLINE FAIL: the exact defining chunk (26) ranks only #4 (score 0.754); chunks 27/30/28 from the same clause rank above it. All returned chunks sit in the right neighborhood (same Section 5), so a generator with a large top_k may still answer correctly, but a strict top-3 context_precision check will flag this as a miss of the single 'best' chunk."
+  },
+  {
+    "question": "Đối với sản phẩm không thuộc Shopee Mall, khi Người Mua chọn hình thức trả hàng 'Tự sắp xếp', ai chịu chi phí vận chuyển ban đầu?",
+    "expected_answer": "Người Mua phải thanh toán trước chi phí vận chuyển trả hàng; Shopee sẽ hỗ trợ hoàn lại một phần chi phí này dưới hình thức Shopee Xu trong 3-5 ngày làm việc nếu Người Mua đáp ứng điều kiện.",
+    "expected_context": "8.2. Với Sản Phẩm không thuộc Shopee Mall, Người Mua có thể lựa chọn hoàn trả Sản Phẩm: 1. Theo hình thức 'Lấy hàng hoàn trả tại nhà' hoặc 'Gửi trả hàng tại bưu cục': Người Mua không phải thanh toán bất cứ chi phí vận chuyển nào cho việc trả hàng. 2. Theo hình thức 'Tự sắp xếp': Người Mua cần thanh toán trước chi phí vận chuyển cho việc trả hàng.",
+    "source": "chinh-sach-tra-hang-hoan-tien-vi.md",
+    "chunk_index": 35,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: correct chunk (35) ranks #2 (score 0.626); an unrelated Shopee Mall shipping-cost clause from a different document (article_vi_77262.md) ranks #1 with a higher score (0.635) due to lexical overlap on 'chi phí vận chuyển'. Good case for distinguishing retrieval precision errors."
+  },
+  {
+    "question": "Số tiền hoàn trả tối thiểu mà Người Bán phải đề xuất khi thực hiện hoàn tiền ngay không cần trả sản phẩm là bao nhiêu phần trăm giá trị sản phẩm?",
+    "expected_answer": "Không được thấp hơn 50% giá trị của Sản Phẩm Hoàn Trả; nếu thấp hơn, Shopee có quyền cấn trừ phần chênh lệch từ Số Dư Tài Khoản Shopee của Người Bán.",
+    "expected_context": "9.5. Đối với các trường hợp hoàn tiền ngay do Người Bán đề xuất, số tiền hoàn trả sẽ do hai Bên tự thỏa thuận với nhau nhưng không được thấp hơn 50% giá trị của Sản Phẩm Hoàn Trả. Trường hợp Shopee nhận được khiếu nại từ Người Mua vì lý do Người Bán hoàn tiền thấp hơn 50% giá trị của Sản Phẩm Hoàn Trả thì...",
+    "source": "chinh-sach-tra-hang-hoan-tien-vi.md",
+    "chunk_index": 42,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: chunk 42 does not appear in the top-3 for this query at all; the retriever instead surfaces an unrelated pricing clause (article_vi_77243.md) and a neighboring refund-timing chunk (36). A clean retrieval-only failure — useful to confirm context_recall catches it."
+  },
+  {
+    "question": "Đơn hàng có giá trị hàng hóa lớn hơn bao nhiêu VNĐ thì không được Shopee hỗ trợ vận chuyển?",
+    "expected_answer": "50.000.000 VNĐ (tổng giá trị hàng hóa với giá khuyến mãi nếu có, không bao gồm mã giảm giá của Shopee, mã giảm giá của Người Bán, xu và phí vận chuyển).",
+    "expected_context": "d. Đơn hàng có giá trị hàng hóa lớn hơn 50.000.000VNĐ (Tổng giá trị hàng hóa với giá khuyến mãi nếu có, không bao gồm mã giảm giá của Shopee, mã giảm giá của Người Bán,...",
+    "source": "chinh-sach-van-chuyen-vi.md",
+    "chunk_index": 6,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit, score 0.716"
+  },
+  {
+    "question": "Mức bồi thường tối đa khi hàng hóa bị mất hoàn toàn (bưu gửi thất lạc hoàn toàn) là bao nhiêu?",
+    "expected_answer": "Số tiền mà đơn vị vận chuyển đồng ý bồi thường, hoặc tối đa 70% giá bán của sản phẩm tại thời điểm đặt hàng nếu đơn vị vận chuyển không bồi thường hoặc bồi thường thấp hơn tỷ lệ này.",
+    "expected_context": "| 6 | Mất hàng, bưu gửi thất lạc hoàn toàn | (i) Số tiền mà đơn vị vận chuyển đồng ý bồi thường theo quy trình bồi thường được thỏa thuận giữa Shopee và đơn vị vận chuyển; hoặc (ii) 70% Giá bán của sản phẩm [...] trong trường hợp đơn vị vận chuyển không bồi thường hoặc bồi thường với mức thấp hơn tỷ lệ này.",
+    "source": "chinh-sach-van-chuyen-vi.md",
+    "chunk_index": 48,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: the compensation table splits the '70%' figure across chunk 48 (row starts, cut mid-sentence) and chunk 49-50 (continuation). Current top-3 ranks chunk 48 only at #3 (score 0.558), behind an unrelated row-5 ('30%') chunk from a duplicate article file. A table split across chunk boundaries is a classic chunking-strategy weak spot."
+  },
+  {
+    "question": "Người Bán cần khiếu nại trong thời hạn bao lâu nếu hàng bị hư hại/không còn nguyên vẹn khi hoàn trả (đơn chuyển hoàn thành công)?",
+    "expected_answer": "Trong vòng 03 ngày sau khi đơn hàng được cập nhật trạng thái chuyển hoàn thành công.",
+    "expected_context": "i. Đơn được cập nhật trạng thái chuyển hoàn thành công: - Hàng bị thất lạc khi hoàn trả: trong vòng 07 ngày... - Hàng bị hư hại/ không còn nguyên vẹn khi hoàn trả: trong vòng 03 ngày sau khi đơn hàng được cập nhật trạng thái chuyển hoàn thành công.",
+    "source": "chinh-sach-van-chuyen-vi.md",
+    "chunk_index": 37,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit (score 0.666) via the duplicate corpus entry article_vi_77250.md, chunk_index 43, which contains identical text to chinh-sach-van-chuyen-vi.md chunk 37 — both are valid supporting evidence."
+  },
+  {
+    "question": "Giới hạn khối lượng và kích thước tối đa cho phương thức vận chuyển Hỏa Tốc (Instant) là bao nhiêu?",
+    "expected_answer": "Kích thước tối đa mỗi cạnh 60 x 60 x 60 cm và khối lượng tối đa 30 kg.",
+    "expected_context": "| **Phương thức vận chuyển** | **Giới hạn tối đa mỗi cạnh (cm) (Cao x Dài x Rộng)** | **Giới hạn cân nặng (kg)** | | **Giao hàng tận nơi** | **Hỏa Tốc Instant** | 60 x 60 x 60 | 30 | | **Hỏa Tốc - Ưu Tiên** | 60 x 60 x 60 | 30 |",
+    "source": "chinh-sach-van-chuyen-vi.md",
+    "chunk_index": 28,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit, score 0.690"
+  },
+  {
+    "question": "What payment methods does Shopee support according to the Terms of Service?",
+    "expected_answer": "Credit Card, Instalment Purchase Plan (for orders exceeding S$200 via banks such as UOB, OCBC and DBS), and other payment methods including ShopeePay, linked bank accounts, and permitted payment wallets.",
+    "expected_context": "9.1 Payments for goods purchased on Shopee can be made by using one or more of the following payment methods in each country it operates in: (i) Credit Card [...] (ii) Instalment Purchase Plan. Buyers may pay via instalment for orders exceeding S$200 [...] The banks that currently support instalment plans are UOB, OCBC and DBS.",
+    "source": "shopee-terms-of-service-en.md",
+    "chunk_index": 74,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: the chunk enumerating the actual payment methods (74) never appears in top-3; the retriever surfaces adjacent boilerplate about payment-method issuer terms (83, 78) and a partial mention of ShopeePay (75) instead. Question is broad/multi-fact, which likely hurts embedding focus — good stress test for recall on enumerations."
+  },
+  {
+    "question": "According to the Shopee Advertising Policy, what categories of content are classified as 'Prohibited Content'?",
+    "expected_answer": "Content promoting illegal activities (drugs, phishing, terrorism, pyramid schemes), tobacco/gambling/weapons, pornographic or obscene material, excessively graphic violence, defamatory/profane content, discriminatory or hate speech, and content containing viruses or malicious code.",
+    "expected_context": "a) Promotes or is related to illegal activities (illegal drugs, phishing, terrorism, criminal activities, contests, pyramid schemes, or chain letters). b) Promotes or is related to tobacco, gambling, or weapons. c) Is related to pornographic or obscene material. d) Is related to excessively graphic or explicit violence...",
+    "source": "shopee-advertising-policy-en.md",
+    "chunk_index": 6,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: correct chunk ranks #2 (score 0.548) behind an unrelated definitions chunk from a duplicate news article (article_en_77154.md, score 0.563) that just happens to share the word 'Media/Platform'. Narrow score gap — a good case to check if a reranker fixes it."
+  },
+  {
+    "question": "Chính sách Bảo mật của Shopee quy định độ tuổi tối thiểu để sử dụng dịch vụ liên quan đến việc thu thập dữ liệu cá nhân là bao nhiêu?",
+    "expected_answer": "Dịch vụ không dành cho trẻ em dưới 13 tuổi; Shopee không cố tình thu thập hay lưu giữ dữ liệu cá nhân của người dưới 13 tuổi.",
+    "expected_context": "9. THÔNG TIN VỀ TRẺ EM. Các Dịch Vụ này không dành cho trẻ em dưới 13 tuổi. Chúng tôi không cố tình thu thập hay lưu giữ bất kỳ dữ liệu cá nhân hay thông tin không nhận dạng cá nhân nào của bất kỳ ai dưới 13 tuổi...",
+    "source": "chinh-sach-bao-mat-vi.md",
+    "chunk_index": 76,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: chunk 76 (the actual 'children' section) is absent from top-3; the retriever returns other consent/withdrawal-rights sections (89, 54, 56) that share vocabulary like 'dữ liệu cá nhân' but not the specific age fact. Clear retrieval miss on a specific numeric fact buried in a long privacy policy."
+  },
+  {
+    "question": "Nếu Người Mua và Người Bán không thể tự thỏa thuận về tranh chấp thì có thể làm gì theo Chính sách Trả hàng và Hoàn tiền?",
+    "expected_answer": "Người Mua và Người Bán có thể khiếu nại lên các Cơ quan chức năng để giải quyết, đồng thời bên khiếu nại phải thông báo kịp thời cho Shopee về vụ việc tranh chấp.",
+    "expected_context": "11. TRANH CHẤP GIỮA NGƯỜI MUA VÀ NGƯỜI BÁN. 11.1.Trong trường hợp Người Mua và Người Bán không thể đồng thuận về phương án giải quyết, Người Mua và Người Bán có thể khiếu nại việc này lên các Cơ quan chức năng để giải quyết.",
+    "source": "chinh-sach-tra-hang-hoan-tien-vi.md",
+    "chunk_index": 45,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit, score 0.593; the full Section 11.1 answer is contained within this single chunk."
+  },
+  {
+    "question": "Sau khi Shopee thông báo quyết định trả hàng/hoàn tiền, Người Bán có bao nhiêu ngày để phản hồi nếu không đồng ý?",
+    "expected_answer": "02 ngày lịch (hoặc thời hạn khác được Shopee quy định trong từng thời điểm) kể từ ngày nhận được thông báo của Shopee.",
+    "expected_context": "Người Bán cần gửi phản hồi trong vòng 02 ngày lịch (hoặc thời hạn khác được quy định bởi Shopee trong từng thời điểm) kể từ ngày nhận được thông báo của Shopee nếu không đồng ý với quyết định hoàn tiền của Shopee...",
+    "source": "chinh-sach-tra-hang-hoan-tien-vi.md",
+    "chunk_index": 25,
+    "retrieval_check": "easy",
+    "retrieval_note": "Top-1 hit, score 0.770"
+  },
+  {
+    "question": "Which types of goods are excluded from Shopee's transport support due to fire or explosion risk?",
+    "expected_answer": "Gas canisters/pressurized sprays, flammable liquids (paint, gasoline, alcohol, perfume), flammable solids (metal/chemical powders), oxidizing agents, magnetic products, and battery-powered electronics (power banks, phones, razors).",
+    "expected_context": "i. Bao gồm nhưng không giới hạn các sản phẩm sau: - Chất khí (Bình gas, bình xịt phòng, bình xịt côn trùng, xịt tóc, bình ô-xy để thở,…) - Chất lỏng dễ cháy (Sơn, xăng, dầu, cồn, rượu, keo dán, nước hoa,…) - Chất rắn dễ cháy (Bột kim loại, bột hóa chất, v.v..) - Chất ô xy hóa - Sản phẩm có từ trường (Nam châm) - Thiết bị điện tử có tích điện: Pin, pin sạc dự phòng, điện thoại di động, máy cạo râu dùng pin, v.v..",
+    "source": "chinh-sach-van-chuyen-vi.md",
+    "chunk_index": 16,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: the itemized list chunk (16) does not appear in the English-query top-3, which instead returns the intro clause (idx 6), a conditional-liability clause (idx 17), and an unrelated Terms of Service import/export clause. Cross-lingual query (English question over Vietnamese source) likely degrades embedding match further — worth testing with a Vietnamese-phrased version too."
+  },
+  {
+    "question": "Non-Mall Seller có thể kháng nghị quyết định hoàn tiền/trả hàng của Shopee (Online Dispute, không kèm trả hàng) trong thời hạn bao lâu kể từ ngày Buyer được hoàn tiền?",
+    "expected_answer": "Trong vòng ba (3) ngày kể từ ngày Buyer được hoàn tiền.",
+    "expected_context": "Non-Mall Seller may appeal such decision by contacting Shopee and providing evidence in support of such appeal. Any appeals must be made:(i) in the case of Online Disputes: (where the request relates to a refund without return of the Item) within three (3) days of the date the Buyer is refunded...",
+    "source": "refunds-and-return-policy-en.md",
+    "chunk_index": 15,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: chunk 15 is absent from top-3; the Vietnamese-phrased query instead surfaces unrelated Shopee Mall shipping-fee and refund-timing chunks from a different, duplicate document (article_vi_77262.md). Language mismatch between query (Vietnamese) and source chunk (English legal doc) is a likely cause — good case to test cross-lingual retrieval."
+  },
+  {
+    "question": "Người khiếu nại về vận chuyển cần cung cấp bằng chứng trong thời hạn bao lâu kể từ khi gửi yêu cầu khiếu nại đến Shopee?",
+    "expected_answer": "Trong vòng 24 giờ kể từ khi gửi yêu cầu khiếu nại đến Shopee hoặc khi nhận được yêu cầu từ Shopee, trừ khi có yêu cầu khác từ Shopee.",
+    "expected_context": "c. Thời hạn cung cấp bằng chứng: Trừ trường hợp có yêu cầu khác của Shopee trong từng vụ việc cụ thể, Người khiếu nại phải cung cấp bằng chứng trong vòng 24 giờ kể từ khi gửi yêu cầu khiếu nại đến Shopee hoặc khi nhận được yêu cầu từ Shopee.",
+    "source": "chinh-sach-van-chuyen-vi.md",
+    "chunk_index": 45,
+    "retrieval_check": "hard",
+    "retrieval_note": "FAIL: chunk 45 is absent from top-3; the retriever instead surfaces earlier general claim-evidence chunks (from the duplicate article_vi_77250.md) and the claim-processing-time clause (10 business days, chunk 39 in this doc) which discusses a different deadline. Two similarly-worded deadlines in the same document (24h to submit evidence vs. 10 days to process) is a realistic confusable-fact stress test."
   }
 ]

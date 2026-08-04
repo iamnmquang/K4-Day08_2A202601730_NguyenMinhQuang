@@ -8,9 +8,14 @@ venv/
 
 # Env (keys)
 .env
+.env.example
 
 # Temp PDF conversion cache
 data/_tmp_pdf/
+data/pageindex/
+
+# Vector store (regenerated via task4_chunking_indexing.py)
+chroma_db/
 
 # Temp / cache
 .pytest_cache/
